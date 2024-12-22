@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(152, 205, 255);
+  background-color: rgb(255, 255, 255);
 
   /* Smoothly transition the background color */
   transition: background-color .5s;
@@ -7,6 +7,12 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+article {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 
 a, a:hover, a:focus, a:active {
@@ -17,16 +23,16 @@ a, a:hover, a:focus, a:active {
 .banner {
   font-size: 2.5rem;
   font-family: 'Lobster', sans-serif;
+  padding: 2rem;
 }
 
 .harbors-main {
   width: 100%;
-  padding-top: 1rem;
 }
 
 .section-title {
   font-size: 1.5rem;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -41,8 +47,19 @@ a, a:hover, a:focus, a:active {
   flex: 1;
 }
 
+.stream-row {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: space-evenly;
+}
+
 .album {
   width: 100%;
+  flex: 1 1 0;
+}
+
+.stream-icon {
+  width: 50px;
   flex: 1 1 0;
 }
 
