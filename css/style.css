@@ -23,7 +23,15 @@ a, a:hover, a:focus, a:active {
 .banner {
   font-size: 2.5rem;
   font-family: 'Lobster', sans-serif;
-  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.footer {
+  font-size: 2.5rem;
+  font-family: 'Lobster', sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 .harbors-main {
@@ -40,6 +48,7 @@ a, a:hover, a:focus, a:active {
 .jimmy-image {
   width: 100%;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .music-row {
@@ -51,6 +60,7 @@ a, a:hover, a:focus, a:active {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 1rem;
 }
 
 .album {
@@ -61,7 +71,10 @@ a, a:hover, a:focus, a:active {
 .stream-icon {
   width: 50px;
   padding-left: 2rem;
-  padding-top: 1rem;
+}
+
+.apple-icon {
+  width: 50px;
 }
 
 .player {
@@ -78,16 +91,16 @@ a, a:hover, a:focus, a:active {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .track-art {
-  margin: 25px;
-  height: 250px;
-  width: 250px;
+  margin: 10px;
+  height: 225px;
+  width: 225px;
   background-image: url("img/harbors.jpg");
   background-size: cover;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 
 .now-playing {
@@ -95,10 +108,6 @@ a, a:hover, a:focus, a:active {
 }
 
 .track-name {
-  font-size: 2rem;
-}
-
-.track-artist {
   font-size: 1.5rem;
 }
 
@@ -174,4 +183,16 @@ i.fa-volume-down, i.fa-volume-up {
 
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 1000px;
+    margin: auto;
+  }
+
+  .track-art {
+    height: 350px;
+    width: 350px;
+  }
 }
