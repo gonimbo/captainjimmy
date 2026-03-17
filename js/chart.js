@@ -21,64 +21,118 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Searching For a Sailing Mate",
+    name: "Chart Magic",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-01.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-01.mp3"
   },
   {
-    name: "Next Port of Call",
+    name: "Wandering Soul",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-02.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-02.mp3"
   },
   {
-    name: "Sailing Caravans",
+    name: "Ocean Gypsy",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-03.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-03.mp3"
   },
   {
-    name: "Vagabond Stage",
+    name: "I Believe",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-04.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-04.mp3"
   },
   {
-    name: "Castaway In a Waiting Game",
+    name: "Long Time Friend",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-05.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-05.mp3"
   },
   {
-    name: "Lost Boats and Sailor Dogs",
+    name: "Shadows of the Moon",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-06.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-06.mp3"
   },
   {
-    name: "Ain't From Around Here",
+    name: "Walkin Thru Life",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-07.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-07.mp3"
   },
   {
-    name: "Song of The Sea",
+    name: "Rub the Lamp",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-08.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-08.mp3"
   },
   {
-    name: "Far Away",
+    name: "Boats Water and Beer",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-09.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-09.mp3"
   },
   {
-    name: "Sail Away",
+    name: "The Hidden Track",
     artist: "Captain Jimmy",
-    image: "img/harbors.jpg",
-    path: "music/harbors/harbors-10.mp3"
+    image: "img/chart.jpg",
+    path: "music/chart/chart-10.mp3"
+  },
+  {
+    name: "Sea of Life",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-11.mp3"
+  },
+  {
+    name: "Islands in the Sun",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-12.mp3"
+  },
+  {
+    name: "Sailors Bar",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-13.mp3"
+  },
+  {
+    name: "Old Man",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-14.mp3"
+  },
+  {
+    name: "Till Paradise",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-15.mp3"
+  },
+  {
+    name: "The Boat Sails On",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-16.mp3"
+  },
+  {
+    name: "Sail on Out",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-17.mp3"
+  },
+  {
+    name: "Captains Song",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-18.mp3"
+  },
+  {
+    name: "After Sundown",
+    artist: "Captain Jimmy",
+    image: "img/chart.jpg",
+    path: "music/chart/chart-19.mp3"
   }
 ];
 
