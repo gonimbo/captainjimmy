@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <title>Harbors of Your Soul</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="banner">
+    <a href="https://www.captainjimmy.com">Captain Jimmy</a>
+  </div>
+  <div class="player">
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+    </div>
+    <div class="buttons">
+      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-3x"></i></div>
+      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+    </div>
+    <div class="slider_container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+      <div class="total-duration">00:00</div>
+    </div>
+  </div>
+  <div class="music-row">
+    <a href="gypsy-of-the-sea.html">
+      <img class="album" src="img/gypsy.jpg" alt="Gypsy of The Sea">
+    </a>
+    <a href="beyond-there-be-dragons.html">
+      <img class="album" src="img/dragons.jpg" alt="Beyond There Be Dragons">
+    </a>
+    <a href="full-moon-and-a-high-tide-runnin.html">
+      <img class="album" src="img/moon.jpg" alt="Full Moon and a High Tide Runnin">
+    </a>
+  </div>
+  <script src="js/harbors.js"></script>
+</body>
+</html>
